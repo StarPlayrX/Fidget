@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF42731B1EBAC17E00E78A8B"
+               BlueprintIdentifier = "CFCFA1E11ED12A70000F11E7"
                BuildableName = "Fidget.app"
                BlueprintName = "Fidget"
                ReferencedContainer = "container:Fidget.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF42731B1EBAC17E00E78A8B"
+            BlueprintIdentifier = "CFCFA1E11ED12A70000F11E7"
             BuildableName = "Fidget.app"
             BlueprintName = "Fidget"
             ReferencedContainer = "container:Fidget.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF42731B1EBAC17E00E78A8B"
+            BlueprintIdentifier = "CFCFA1E11ED12A70000F11E7"
             BuildableName = "Fidget.app"
             BlueprintName = "Fidget"
             ReferencedContainer = "container:Fidget.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF42731B1EBAC17E00E78A8B"
+            BlueprintIdentifier = "CFCFA1E11ED12A70000F11E7"
             BuildableName = "Fidget.app"
             BlueprintName = "Fidget"
             ReferencedContainer = "container:Fidget.xcodeproj">
