@@ -3,7 +3,7 @@
 //  Fidget
 //
 //  Created by StarPlayr on 5/3/17.
-//  Copyright © 2017 StarPlayr. All rights reserved.
+//  Copyright © 2019 Todd Bruss. All rights reserved.
 //
 
 import SpriteKit

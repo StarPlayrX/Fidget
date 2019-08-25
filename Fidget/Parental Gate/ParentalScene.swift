@@ -3,7 +3,7 @@
 //  Fidget
 //
 //  Created by StarPlayr on 5/28/17.
-//  Copyright © 2017 Todd Bruss. All rights reserved.
+//  Copyright © 2019 Todd Bruss. All rights reserved.
 //
 
 import SpriteKit
@@ -520,7 +520,7 @@ class ParentalScene: SKScene, AVSpeechSynthesizerDelegate {
                 textLabel.position = (scene.childNode(withName: "text")?.position)!
                 //textLabel.position.y = sprite.position.y + vspc - vshift
 
-                textLabel.text = "Kids, Ask your parents to"
+                textLabel.text = "Kids, ask your parents to"
                 scene.addChild(textLabel)
                 
                 textLabel2.fontSize = CGFloat(37)

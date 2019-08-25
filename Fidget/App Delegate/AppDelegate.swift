@@ -3,7 +3,7 @@
 //  Fidget
 //
 //  Created by StarPlayr on 5/3/17.
-//  Copyright © 2017 StarPlayr. All rights reserved.
+//  Copyright © 2017 Todd Bruss. All rights reserved.
 //
 import UIKit
 //import GoogleMobileAds
@@ -14,8 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Thread.sleep(forTimeInterval: 2.0)
+
         return true
     }
     

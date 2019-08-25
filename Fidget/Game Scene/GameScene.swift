@@ -34,7 +34,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var minforce = 1
     var maxspin = 4
     var minspin = 1
-    var maxfgt = 13
+    var maxfgt = imagearray.count - 2                           
     var minfgt = 1
     var cforce = 3
     var cspin = 3
@@ -361,7 +361,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         gestureView.layer.anchorPoint = CGPoint(x: 0.5, y: 0.5)
         
         view.addSubview(gestureView)
-        view.bringSubview(toFront: gestureView)
+        view.bringSubviewToFront(gestureView)
         
         let twoFingerRotate = UIRotationGestureRecognizer(target: self, action: #selector(handleRotateGesture(gestureRec:)))
         gestureView.addGestureRecognizer(twoFingerRotate)
@@ -670,7 +670,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             
         }
         
-        if gesture.direction == UISwipeGestureRecognizerDirection.right {
+        if gesture.direction == UISwipeGestureRecognizer.Direction.right {
             
             if centerY > 0 {
                 fidget.physicsBody?.angularVelocity = 1 * pi + (velocity)
@@ -678,7 +678,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 fidget.physicsBody?.angularVelocity = -1 * pi + (velocity)
             }
         }
-        else if gesture.direction == UISwipeGestureRecognizerDirection.left {
+        else if gesture.direction == UISwipeGestureRecognizer.Direction.left {
             
             if centerY < 0 {
                 fidget.physicsBody?.angularVelocity = 1 * pi + (velocity)
@@ -687,14 +687,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             }
             
         }
-        else if gesture.direction == UISwipeGestureRecognizerDirection.up {
+        else if gesture.direction == UISwipeGestureRecognizer.Direction.up {
             if centerX > 0 {
                 fidget.physicsBody?.angularVelocity = 1 * pi + (velocity)
             } else {
                 fidget.physicsBody?.angularVelocity = -1 * pi + (velocity)
             }
         }
-        else if gesture.direction == UISwipeGestureRecognizerDirection.down {
+        else if gesture.direction == UISwipeGestureRecognizer.Direction.down {
             if centerX < 0 {
                 fidget.physicsBody?.angularVelocity = 1 * pi + (velocity)
             } else {
