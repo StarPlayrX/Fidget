@@ -9,7 +9,7 @@ SpriteKit
 
 Physics
 
-Designs
+Designs, UI and UX by Todd Bruss
 
 Mesmerizing Spinners
 
