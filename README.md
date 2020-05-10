@@ -1,7 +1,7 @@
 # Fidget
 A unique Fidget spinner App with a Parental Screen.
 
-Parental Gate
+Parental Gate ( I think it's functionality has been removed ).
 
 Tutorial
 
